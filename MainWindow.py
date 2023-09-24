@@ -37,7 +37,7 @@ class Ui_MainWindow(object):
         MainWindow.resize(1000, 800)
         MainWindow.setMaximumSize(QtCore.QSize(1000, 800))
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("images/icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
         MainWindow.setStyleSheet("background-image: url(:/images/Elementium - MainWindow.png);")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
