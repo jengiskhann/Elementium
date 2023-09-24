@@ -27,7 +27,7 @@ with open('Periodic Table of Elements.csv', mode='r+') as f:
             SymbolsModeWindow.resize(1000, 800)
             SymbolsModeWindow.setMaximumSize(QtCore.QSize(1000, 800))
             icon = QtGui.QIcon()
-            icon.addPixmap(QtGui.QPixmap("images/icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+            icon.addPixmap(QtGui.QPixmap("icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
             SymbolsModeWindow.setWindowIcon(icon)
             SymbolsModeWindow.setStyleSheet("background-image: url(:/images/SymbolsModeWindow.png);")
             self.centralwidget = QtWidgets.QWidget(SymbolsModeWindow)
