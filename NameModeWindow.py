@@ -27,7 +27,7 @@ with open('Periodic Table of Elements.csv', mode='r+') as f:
             NameModeWindow.resize(1000, 800)
             NameModeWindow.setMaximumSize(QtCore.QSize(1000, 800))
             icon = QtGui.QIcon()
-            icon.addPixmap(QtGui.QPixmap("images/icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+            icon.addPixmap(QtGui.QPixmap("icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
             NameModeWindow.setWindowIcon(icon)
             NameModeWindow.setStyleSheet("background-image: url(:/images/Elementium - NameModeWindow.png);")
             self.centralwidget = QtWidgets.QWidget(NameModeWindow)
