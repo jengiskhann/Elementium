@@ -19,18 +19,21 @@ class Ui_MainWindow(object):
         self.ui = Ui_AtomicNumberModeWindow()
         self.ui.setupUi(self.window)
         self.window.show()
+        MainWindow.hide()
 
     def openNameModeWindow(self):
         self.window = QtWidgets.QMainWindow()
         self.ui = Ui_NameModeWindow()
         self.ui.setupUi(self.window)
         self.window.show()
+        MainWindow.hide()
 
     def openSymbolsModeWindow(self):
         self.window = QtWidgets.QMainWindow()
         self.ui = Ui_SymbolsModeWindow()
         self.ui.setupUi(self.window)
         self.window.show()
+        MainWindow.hide()
 
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
